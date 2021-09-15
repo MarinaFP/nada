@@ -1,0 +1,6 @@
+export {default as Home} from './Home'
+export {default as Welcome} from './Welcome'
+export {default as Details} from './Details'
+export {default as Goodbye} from './Goodbye'
+export {default as Screen} from './Screen'
+export {default as Notification} from './Notification'
