@@ -1,10 +1,13 @@
-import react from 'react'
-import { Container, Text } from '../styles/Container'
+import React from 'react'
+import { useNavigation } from '@react-navigation/core';
+import {Text } from 'react-native';
 
-export default function Details() {
-   return (
-    <Container>
-       <Text> Ative sua localização </Text>    
-    </Container>
-   );
-}
+export function Localizacao() {
+    const navigation = useNavigation();
+
+    return (
+            <Text>Ative sua localização</Text>
+    )
+};
+
+export default Localizacao;
